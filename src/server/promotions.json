@@ -1,0 +1,38 @@
+[
+   {
+     "id": 1,
+     "title": "First Deposit Bonus",
+     "description": "€100 on your first Deposit +100 Free Spin",
+     "image": "/images/casino1.png"
+   },
+   {
+     "id": 2,
+     "title": "Second Deposit Bonus",
+     "description": "€100 on your first Deposit +100 Free Spin",
+     "image": "/images/casino1.png"
+   },
+   {
+     "id": 3,
+     "title": "Third Deposit Bonus",
+     "description": "€100 on your first Deposit +100 Free Spin",
+     "image": "/images/casino1.png"
+   },
+   {
+     "id": 4,
+     "title": "Free Spin Every Monday",
+     "description": "€100 on your first Deposit +100 Free Spin",
+     "image": "/images/casino2.png"
+   },
+   {
+     "id": 5,
+     "title": "Promotion Two",
+     "description": "€100 on your first Deposit +100 Free Spin",
+     "image": "/images/casino3.png"
+   },
+   {
+     "id": 6,
+     "title": "Promotion Three",
+     "description": "€100 on your first Deposit +100 Free Spin",
+     "image": "/images/casino4.png"
+   }
+ ]

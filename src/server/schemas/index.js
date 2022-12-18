@@ -16,6 +16,11 @@ const RootQuery = new GraphQLObjectType({
       args: { id: { type: GraphQLInt } },
       resolve: () => promotionData,
     },
+    getPromotionById:{
+      type: PromotionType,
+      args: { id: { type: GraphQLInt } },
+      resolve: (parent, args) => promotionData.find(i => i.id == args.id ),
+    }
   },
 });
 const mutation = new GraphQLObjectType({
@@ -35,7 +40,7 @@ const mutation = new GraphQLObjectType({
           description: args.description,
           image: args.image,
         });
-        return args;
+     args;
       },
     },
   },
